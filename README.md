@@ -1,3 +1,21 @@
+## 🔗 Project Continuation – Analytics Layer
+
+This project focuses on building the **data warehouse (ETL, data modeling, and transformation)**.
+
+👉 The next phase of this project (analytics & insights) is available here:
+➡️ [Sales Insights SQL Analysis](https://github.com/Sreya200402/Sales_Insights_SQL_Analysis)
+
+Together, these projects form a complete **end-to-end data analytics pipeline**:
+
+* Data Warehouse → Data Analysis → Business Insights
+
+
+
+
+
+
+
+
 # Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
