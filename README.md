@@ -1,3 +1,6 @@
+# SQL Data Warehouse Project – Sales Data Engineering
+
+
 ## 🔗 Project Continuation – Analytics Layer
 
 This project focuses on building the **data warehouse (ETL, data modeling, and transformation)**.
@@ -8,10 +11,6 @@ This project focuses on building the **data warehouse (ETL, data modeling, and t
 Together, these projects form a complete **end-to-end data analytics pipeline**:
 
 * Data Warehouse → Data Analysis → Business Insights
-
-
-
-
 
 
 
