@@ -105,5 +105,5 @@ The warehouse enables:
 - Integrate real-time data ingestion  
 - Optimize query performance for large-scale data  
 
----
+
 
