@@ -1,95 +1,109 @@
-# SQL Data Warehouse Project – Sales Data Engineering
+# 🏗️ SQL Data Warehouse Project – Sales Data Engineering
+
+## 🚀 Project Highlights
+- Designed and implemented a scalable data warehouse using SQL  
+- Built a structured Medallion Architecture (Bronze → Silver → Gold)  
+- Created fact and dimension tables using star schema design  
+- Enabled efficient analytics and reporting through clean, transformed data  
+- Supported downstream business insights and decision-making  
+
+---
 
 ## 🔗 Project Continuation – Analytics Layer
 
-This project focuses on building the **data warehouse (ETL, data modeling, and transformation)**.
+This project focuses on **data engineering and warehouse design**.
 
-👉 The next phase of this project (analytics & insights) is available here:
-➡️ [Sales Insights SQL Analysis](https://github.com/Sreya200402/Sales_Insights_SQL_Analysis)
+👉 The analytics layer (EDA & business insights) is available here:  
+➡️ https://github.com/Sreya200402/Sales_Insights_SQL_Analysis  
 
-Together, these projects form a complete **end-to-end data analytics pipeline**:
+Together, these projects form a complete pipeline:
 
-* Data Warehouse → Data Analysis → Business Insights
+**Data Warehouse → Data Analysis → Business Insights**
 
 ---
 
 ## 🎯 Business Problem
+Sales data from ERP and CRM systems is often fragmented and inconsistent, making it difficult to:
+- Track customer purchasing behavior  
+- Analyze product performance  
+- Generate reliable business insights  
 
-Sales data from ERP and CRM systems is often inconsistent and fragmented, making it difficult to:
-
-* Track customer purchasing behavior
-* Analyze product performance
-* Generate reliable business insights
-
-This project builds a centralized data warehouse to solve these issues and enable efficient reporting and analysis.
-
-It ensures data consistency, improves query performance, and provides a reliable foundation for business intelligence and analytics workflows.
-
----
-
-## 📊 Project Overview
-
-This project focuses on designing and implementing a **scalable data warehouse using SQL** to support business reporting, analytics, and downstream data-driven decision-making.
+This project solves these challenges by building a centralized data warehouse that ensures data consistency, improves query performance, and enables efficient analytics.
 
 ---
 
 ## 🏗️ Architecture
 
-This project follows a **Medallion Architecture** approach:
+This project follows a **Medallion Architecture**:
 
-* **Bronze Layer** → Raw data ingestion from ERP & CRM sources
-* **Silver Layer** → Data cleaning, transformation, and standardization
-* **Gold Layer** → Analytical data model (fact & dimension tables)
+- **Bronze Layer** → Raw data ingestion from ERP & CRM sources  
+- **Silver Layer** → Data cleaning, transformation, and standardization  
+- **Gold Layer** → Analytical model (fact & dimension tables)  
+
+---
+
+## 🧱 Data Model (Gold Layer)
+
+- Fact Table: Sales transactions  
+- Dimension Tables:
+  - Customers  
+  - Products  
+  - Dates  
+
+👉 Designed using **star schema** for optimized analytical queries  
 
 ---
 
 ## 📊 Analytical Capabilities Enabled
 
-The structured Gold Layer enables downstream analysis such as:
+The warehouse enables:
 
-* Identifying high-value customers contributing the majority of revenue
-* Analyzing top-performing product categories
-* Detecting seasonal sales trends over time
+- Identification of high-value customers  
+- Product performance analysis  
+- Revenue trend and seasonality analysis  
+- Efficient aggregation and reporting  
 
-👉 Detailed analysis and insights are available in the next phase:
-➡️ [Sales Insights SQL Analysis](https://github.com/Sreya200402/Sales_Insights_SQL_Analysis)
+👉 Full analysis available here:  
+➡️ https://github.com/Sreya200402/Sales_Insights_SQL_Analysis  
 
 ---
 
 ## ⚙️ Tech Stack
-
-* SQL Server (Database)
-* SQL (Data Transformation & Analysis)
-* CSV Files (Data Sources – ERP & CRM)
-* Data Modeling (Star Schema)
-* ETL Concepts (Extract, Transform, Load)
+- SQL Server  
+- SQL (Joins, Aggregations, Transformations)  
+- CSV Files (ERP & CRM data sources)  
+- Data Modeling (Star Schema)  
+- ETL Concepts  
 
 ---
 
 ## ⚙️ Key Contributions
-
-* Designed a star schema with fact and dimension tables for optimized querying
-* Transformed raw data into clean, analysis-ready datasets
-* Built reusable SQL views to simplify downstream analytics
-* Structured data to support efficient aggregation and reporting
-
----
-
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE).
+- Designed scalable data warehouse architecture  
+- Built ETL pipeline for transforming raw data into structured layers  
+- Created reusable SQL views for analytics  
+- Improved data quality and consistency across datasets  
 
 ---
 
-## 👩‍💻 About Me
+## 💡 Business Impact
+- Provides a reliable foundation for business intelligence  
+- Enables faster and more accurate reporting  
+- Supports data-driven decision-making  
+- Reduces inconsistencies across multiple data sources  
 
-Hi, I'm Sreya — an aspiring Data Analyst skilled in SQL, Python, and Power BI.
+---
 
-I specialize in:
+## ▶️ How to Use
+1. Load raw datasets (ERP & CRM)  
+2. Execute SQL scripts for Bronze → Silver → Gold transformation  
+3. Query Gold layer for analytics and reporting  
 
-* Data Cleaning & Transformation
-* Data Modeling & Warehousing
-* Exploratory Data Analysis (EDA)
-* Dashboard Development
+---
 
-This project demonstrates my ability to build a scalable data warehouse and prepare data for analytics and business decision-making.
+## 🚀 Future Enhancements
+- Automate ETL pipeline using scheduling tools  
+- Integrate real-time data ingestion  
+- Optimize query performance for large-scale data  
+
+---
+
